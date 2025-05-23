@@ -502,7 +502,7 @@ h2 {
 /* CSS (add to your stylesheet) */
 .hero-community {
     background: linear-gradient(rgba(0, 82, 155, 0.7), rgba(0, 82, 155, 0.7)),
-                url('images/carimg.jpg') center/cover;
+                url('../images/carimg.jpg') center/cover;
     padding: 100px 20px;
     text-align: center;
     color: white;
