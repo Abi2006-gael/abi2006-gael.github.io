@@ -415,7 +415,7 @@ h2 {
 .partner-card:hover img {
     transform: scale(1.05);
 }
-/* CSS Section */
+
 .car-services {
     padding: 4rem 0;
     background-color: #fff;
@@ -499,7 +499,7 @@ h2 {
     }
 }
 
-/* CSS (add to your stylesheet) */
+
 .hero-community {
     background: linear-gradient(rgba(0, 82, 155, 0.7), rgba(0, 82, 155, 0.7)),
                 url('../images/carimg.jpg') center/cover;
@@ -576,6 +576,7 @@ a.community-cta {
     text-decoration: none;
     display: inline-block;
 }
+<<<<<<< HEAD
 
         /* FAQ Section */
         .faq-section {
@@ -674,7 +675,3 @@ a.community-cta {
             .faq-image {
                 height: 300px;
             }
-        }
-
-
-
