@@ -134,3 +134,22 @@ document.querySelector('.community-cta').addEventListener('click', function() {
     // Add your click handler logic here
     window.location.href = '#inventory'; // Example action
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+            const questions = document.querySelectorAll('.question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle answer
+                    answer.classList.toggle('active');
+                    
+                    // Rotate icon
+                    icon.style.transform = answer.classList.contains('active') 
+                        ? 'rotate(180deg)'
+                        : 'rotate(0deg)';
+                });
+            });
+        });

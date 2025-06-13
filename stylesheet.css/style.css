@@ -576,3 +576,105 @@ a.community-cta {
     text-decoration: none;
     display: inline-block;
 }
+
+        /* FAQ Section */
+        .faq-section {
+            background: white;
+            padding: 4rem 0;
+        }
+
+        .faq-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 3rem;
+            padding: 0 2rem;
+        }
+
+        .image-container {
+            flex: 1;
+        }
+.faq-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .content-container {
+            flex: 1;
+        }
+
+        .faq-header {
+            color: #1a73e8;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .faq-subheader {
+            color: #666;
+            font-size: 1.1rem;
+                        margin-bottom: 2rem;
+        }
+
+        /* Questions & Answers */
+        .faq-item {
+            margin-bottom: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .question {
+            padding: 1.5rem;
+            background: #f8f9fa;
+            color: #1a73e8;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                        transition: all 0.3s;
+        }
+
+        .question:hover {
+            background: #e3f2fd;
+        }
+
+        .question i {
+            transition: transform 0.3s;
+        }
+
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 1.5rem;
+            background: white;
+            transition: all 0.3s ease-out;
+            color: #666666;
+        }
+
+        .answer.active {
+                        max-height: 500px;
+            padding: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .page-counter {
+            margin-top: 2rem;
+            color: #1a73e8;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .faq-container {
+                flex-direction: column;
+            }
+            
+            .faq-image {
+                height: 300px;
+            }
+        }
+
+
+
